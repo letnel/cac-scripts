@@ -1,4 +1,11 @@
 Usage :
 
+Download "connect-vpn-proxy.ps1" to your machine
 
-> iex "& { $(irm https://raw.githubusercontent.com/letnel/cac-scripts/main/connect-vpn-with-proxy-script.ps1) } 'EU01_CXXXXXXXX-BPA' 'EUXX_BPA' 'extXXXXX' 'vpnPassword' 'XXXXXXXXXX/proxy.pac'"
+Replace credentials
+
+Execute script
+
+To execute with double click create a shortcut with the following target
+
+powershell.exe -command "& 'C:\path to script\connect-vpn-proxy.ps1'"
